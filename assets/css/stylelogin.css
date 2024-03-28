@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;/*Usado para calcular as medidas de altura e largura dos elementos*/
+}
+
+html, body{
+    height: 100%;/*Comando para colocar o rodapé no fim da página*/
+}
+
+body{
+    color: #73879C;
+    font-family: Helvitica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #2A3F54;
+    display: flex; /*Comando para colocar o rodapé no fim da página*/
+    flex-direction: column; /*Comando para colocar o rodapé no fim da página*/
+}
+
+.conteudo{
+    flex: 1 0 auto; /*Comando para colocar o rodapé no final da página*/
+}
+
+.container{
+    width: 100%;
+    max-width: 430px;
+    margin: 70px auto;
+    background-color: #fff;
+    padding: 20px;/*Coloca um espaço interno nos elementos*/
+    border-radius: 15px;
+}
+
+.container img{
+    width: 60%;
+}
+
+.container .logo{
+    text-align: center;
+}
+
+.container .titulo1{
+    text-align: center;
+    color: #165491;
+}
+
+.container .titulo2{
+    text-align: center;
+    color: #73879C;
+}
+
+.container form{
+    margin: 20px;
+}
+
+.container input,
+.container button{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    outline-color: #cdf;
+}
+
+.container input{
+   margin-top: 5px; 
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   color: #165491;
+}
+
+.container button{
+    font-family: Helvitica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #526a92;
+    color: #fff;
+    border: none;
+    width: 80px;
+}
+
+.container .botao{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container button:hover{
+    background-color: #73879C;
+    cursor: pointer;
+}
+
+.container button:active{
+    background-color: #526a92;
+}
+
+.footer-box{
+    text-align: center;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.footer-box p{
+    font-family: "Helvetica Neue", Arial, "Droid Sans", sans-serif;
+    font-size: 10px;
+}
+
+.conta{
+    margin-top: 40px;
+}

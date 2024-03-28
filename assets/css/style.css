@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f1f1f1;/*Cor de fundo da página*/
+    color: #666666;
+    font-family: "Souce Sans Pro", sans-serif;
+    font-size: 150%;
+    font-weight: 200;
+    line-height: 1.65em;
+}
+
+#header{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#header .titulo{
+    margin: auto;
+    z-index: 1000;
+    padding-top: 13%;
+}
+
+#header h1{
+    font-size: 2cm;
+    padding: 0em 0.5em 0em 0.25em;
+    font-family: "Souce Sans Pro", sans-serif;
+    color: #fff;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+#header h3{
+    font-family: "Souce Sans Pro", sans-serif;
+    color: #ccc;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#header nav{
+    background-color: #181c49;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1000;
+}
+
+#header nav a{
+    margin-right: 25px;
+    color: #ccc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#header nav a:hover{
+    color: #ff6900;
+}
+
+#bloco{
+    width: 40em;
+    padding-top: 0;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    margin: 0 auto;
+}
+
+#conteudo1{
+    background-color: #fff;
+    padding: 4em 4em 2em 4em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button{
+    border: 2px solid #9a9a9a;
+    padding: 1em;
+    border-radius: 4px;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.325em;
+    font-size: 0.725em;
+    background-color: transparent;
+    color: #9a9a9a;
+}
+
+ul{
+    padding-left: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button:hover{
+    color: #ff6900;
+    border: 2px solid black;
+}
+
+.conteudo2 {
+    display: flex;
+    width: calc(100% + 2em);
+    margin: -2em 0 0 -2em;
+}
+
+.artigo{
+    padding: 3em 3em 1em 3em;
+    background-color: #fff;
+    margin: 2em 0 0 2em;
+    border-radius: 4px;
+    text-align: center;
+    width: 50%;
+}
+
+.artigo header{
+    margin: -3em 0 3em -3em;
+    width: calc(100% + 6em);
+    height: 10em;
+    position: relative;
+    overflow: hidden;
+}
+
+.artigo header a{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#footer{
+    margin: 4em auto 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 0.8em;
+    background-color: #181c49;
+    color: #f1f1f1;
+    position: absolute;
+}
